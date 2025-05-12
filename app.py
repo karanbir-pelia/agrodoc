@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 from webpages import home, readme, disease_recognition, about
 import os
 
-os.system('python --m pip install -r requirements.txt')
+os.system('python -m pip install -r requirements.txt')
 
 def main():
     """Main application entry point."""
@@ -14,7 +14,7 @@ def main():
     # Sidebar navigation
     with st.sidebar:
         app_mode = option_menu(
-            "Dashboard",
+            "Menu",
             ["Home", "Read Me", "Disease Recognition", "About Me"],
             icons=["house", "book", "search", "person-video3"],
             menu_icon="list",
