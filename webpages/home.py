@@ -3,7 +3,7 @@ import streamlit as st
 
 def show():
     """Display the Home page content."""
-    st.markdown("# 🌱 CropDoc")
+    st.markdown("# 🌱 AgroDoc")
     st.markdown("### Crop Disease Recognition System")
     st.divider()
 
