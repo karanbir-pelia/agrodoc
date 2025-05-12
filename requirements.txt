@@ -1,0 +1,18 @@
+# AgroDoc - Crop Disease Recognition System Dependencies
+
+# Core dependencies
+streamlit>=1.22.0
+streamlit-option-menu>=0.3.2
+tensorflow>=2.12.0
+numpy>=1.23.5
+pillow>=9.5.0
+
+# Image processing
+opencv-python>=4.7.0
+
+# Data visualization
+matplotlib>=3.7.1
+
+# Other utilities
+python-time>=0.3.0
+pathlib>=1.0.1
