@@ -42,7 +42,7 @@ The system currently supports disease detection for the following crops:
 1. Clone the repository:
 
     ```
-    git clone https://github.com//karanbir-pelia/agrodoc.git
+    git clone https://github.com/karanbir-pelia/agrodoc.git
     cd agrodoc
     ```
 
