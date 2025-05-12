@@ -39,14 +39,14 @@ def show():
             )
         with columns[2]:
             st.markdown(''' <a href = "mailto:karanbirsinghpelia@gmail.com">
-            <img src = "data:image/webp;base64, {}" width="48" height="48" style="display: block; margin: auto;"> </a>
+            <img src = "data:image/png;base64, {}" width="48" height="48" style="display: block; margin: auto;"> </a>
         '''.format(base64.b64encode(open("images/email.png",
                                         "rb").read()).decode()),
             unsafe_allow_html=True
             )
         with columns[3]:
             st.markdown(''' <a href = "https://drive.google.com/drive/folders/1E5J3iqiNt7qkAwn2VaDFz3qUsORdl7c6?usp=sharing">
-            <img src = "data:image/webp;base64, {}" width="48" height="48" style="display: block; margin: auto;"> </a>
+            <img src = "data:image/png;base64, {}" width="48" height="48" style="display: block; margin: auto;"> </a>
         '''.format(base64.b64encode(open("images/resume.png",
                                         "rb").read()).decode()),
             unsafe_allow_html=True
